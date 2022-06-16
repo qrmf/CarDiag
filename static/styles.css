@@ -1,0 +1,23 @@
+table {
+  width: 100%;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  text-align: left;
+  padding: 4px;
+}
+
+table #tbl-s {
+  width: 40%;
+}
+
+table #tbl-t {
+  width: 60%
+}
+
+th[scope=col] {
+  padding: 10px;
+  font-size: 16pt;
+}
